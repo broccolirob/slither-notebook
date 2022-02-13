@@ -32,6 +32,7 @@ setup(
             "slither-check-kspec = slither.tools.kspec_coverage.__main__:main",
             "slither-prop = slither.tools.properties.__main__:main",
             "slither-mutate = slither.tools.mutator.__main__:main",
+            "slither-notebook = slither.tools.notebook.__main__:main",
         ]
     },
 )
